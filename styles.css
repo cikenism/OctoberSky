@@ -25,10 +25,10 @@ header {
 
 /* CSS */
 .header-image {
-    width: 5%; /* Set the width to 50% of the container's width */
-    height: auto; /* Maintain the aspect ratio */
-    display: block; /* Ensures the image behaves as a block element */
-    margin: 0 auto; /* Center the image horizontally */
+    width: 5%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
 }
 
 
@@ -124,25 +124,21 @@ main {
 
 footer {
     text-align: center;
-    
     color: white;
 }
 
 @media (max-width: 768px) {
     header {
         text-align: center;
-        padding-top: 10px;
     }
 
     .header-image {
-        width: 20%; /* Set the width to 50% of the container's width */
-        height: auto; /* Maintain the aspect ratio */
-        display: block; /* Ensures the image behaves as a block element */
-        margin: 0 auto; /* Center the image horizontally */
+        width: 20%; 
+        height: auto; 
     }
 
     .centered-images img {
-        max-width: 50%; 
+        max-width: 75%; 
         height: auto;
         margin: 3px; 
     }
@@ -160,7 +156,7 @@ footer {
     .text3 {
         color: #BFD62F;
         font-size: 1.2rem; 
-        margin-top: 0.5rem; 
+        margin-top: 0.75rem; 
     }
 
     .text4 {
@@ -173,18 +169,24 @@ footer {
     .text6,
     .text7 {
         font-size: 1rem; 
-        margin-top: 0.25rem; 
+        margin-top: 0.5rem; 
     }
 
     .text8 {
-        font-size: 0.8rem; 
-        margin-top: 0.5rem; 
+        font-size: 1rem; 
+        margin-top: 1.5rem; 
     }
 
 
     .text9,
     .text10 {
-        font-size: 0.8rem; 
-        margin-top: 0.1rem; 
+        font-size: 1rem; 
+        margin-top: 0.5rem; 
+    }
+
+    footer {
+        text-align: center;
+        
+        color: white;
     }
 }
