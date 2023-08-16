@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1258A1;
+    background-image: url('assets/Rectangle\ 1.svg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-blend-mode: multiply; 
+    font-family: "HelveticaNeue", "Helvetica Neue Light", "Helvetica Neue", 
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #fff;
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-block-end: auto;
+}
+
+header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.image-top-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    z-index: -1; 
+}
+
+.image-bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 30%;
+    z-index: -1; 
+}
+
+main {
+    position: relative;
+    flex-direction: column;
+}
+
+.centered-images {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+.centered-images img {
+    max-width: 100%; 
+    margin: 3px; 
+}
+
+.text1{
+    text-align: center;
+    font-size: 4rem; 
+    font-weight: bold;
+    margin-top: 2rem; 
+}
+
+.text2 {
+    text-align: center;
+    font-size: 7rem; 
+    font-weight: bold;
+    margin-top: -2rem; 
+}
+
+.text3{
+    color: #BFD62F;
+    text-align: center;
+    font-size: 2rem; 
+    margin-top: 1rem; 
+}
+
+.text4 {
+    text-align: center;
+    font-size: 1.4rem; 
+    margin-top: 2rem; 
+}
+
+
+.text5,
+.text6,
+.text7 {
+    text-align: center;
+    font-size: 1.4rem; 
+    margin-top: 0.5rem; 
+}
+
+.text8 {
+    color: #F8CB3F;
+    text-align: center;
+    font-size: 1.4rem; 
+    margin-top: 2rem; 
+}
+
+.text9{
+    color: #F8CB3F;
+    text-align: center;
+    font-size: 1.4rem; 
+    margin-top: 0.5rem; 
+}
+.text10 {
+    color: #F8CB3F;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 5rem; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .text1 {
+        font-size: 1.8rem; 
+        margin-top: 1.5rem;
+    }
+
+    .text2 {
+        font-size: 3rem; 
+        margin-top: -0.75rem; 
+    }
+
+    .text3 {
+        color: #BFD62F;
+        font-size: 1.2rem; 
+        margin-top: 0.8rem; 
+    }
+
+    .text4 {
+        font-size: 1rem; 
+        margin-top: 2rem; 
+    }
+
+    
+    .text5,
+    .text6,
+    .text7 {
+        font-size: 1rem; 
+        margin-top: 0.5rem; 
+    }
+
+    .text8 {
+        font-size: 1rem; 
+        margin-top: 2rem; 
+    }
+
+
+    .text9,
+    .text10 {
+        font-size: 1rem; 
+        margin-top: 0.5rem; 
+    }
+}
